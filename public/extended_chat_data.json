@@ -1,0 +1,116 @@
+{
+  "results": [
+    {
+      "room": {
+        "name": "Product A",
+        "id": 12456,
+        "image_url": "https://picsum.photos/id/237/200/300",
+        "participant": [
+          {
+            "id": "admin@mail.com",
+            "name": "Admin",
+            "role": 0
+          },
+          {
+            "id": "agent@mail.com",
+            "name": "Agent A",
+            "role": 1
+          },
+          {
+            "id": "customer@mail.com",
+            "name": "king customer",
+            "role": 2
+          }
+        ]
+      },
+      "comments": [
+        {
+          "id": 885512,
+          "type": "text",
+          "message": "Selamat malam",
+          "sender": "customer@mail.com"
+        },
+        {
+          "id": 885513,
+          "type": "text",
+          "message": "Malam",
+          "sender": "agent@mail.com"
+        },
+        {
+          "id": 885514,
+          "type": "text",
+          "message": "Ada yang bisa saya bantu?",
+          "sender": "agent@mail.com"
+        },
+        {
+          "id": 885515,
+          "type": "text",
+          "message": "Saya ingin mengirimkan bukti pembayaran, karena diaplikasi selalu gagal",
+          "sender": "customer@mail.com"
+        },
+        {
+          "id": 885516,
+          "type": "text",
+          "message": "Baik, silahkan kirimkan lampiran bukti pembayarannya",
+          "sender": "agent@mail.com"
+        },
+        {
+          "id": 885517,
+          "type": "image",
+          "message": "Ini bukti pembayarannya",
+          "sender": "customer@mail.com",
+          "mediaUrl": "https://picsum.photos/id/237/600/400",
+          "mediaSize": {
+            "width": 600,
+            "height": 400,
+            "fileSize": "245KB"
+          },
+          "mediaMetadata": {
+            "fileName": "bukti_pembayaran.jpg",
+            "mimeType": "image/jpeg"
+          }
+        },
+        {
+          "id": 885518,
+          "type": "video",
+          "message": "Video tutorial pembayaran",
+          "sender": "agent@mail.com",
+          "mediaUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+          "mediaSize": {
+            "width": 1280,
+            "height": 720,
+            "duration": "12:14",
+            "fileSize": "15.2MB"
+          },
+          "mediaMetadata": {
+            "fileName": "tutorial_video.mp4",
+            "mimeType": "video/mp4",
+            "thumbnail": "https://picsum.photos/id/100/320/180"
+          }
+        },
+        {
+          "id": 885519,
+          "type": "pdf",
+          "message": "Panduan lengkap pembayaran",
+          "sender": "agent@mail.com",
+          "mediaUrl": "/file/Tester.pdf",
+          "mediaSize": {
+            "pages": 5,
+            "fileSize": "2.1MB"
+          },
+          "mediaMetadata": {
+            "fileName": "panduan_pembayaran.pdf",
+            "mimeType": "application/pdf",
+            "thumbnail": "https://picsum.photos/id/24/200/280"
+          }
+        },
+        {
+          "id": 885520,
+          "type": "text",
+          "message": "Terima kasih banyak! Sangat membantu",
+          "sender": "customer@mail.com"
+        }
+      ]
+    }
+  ]
+}
