@@ -9,13 +9,15 @@ Semua file yang diminta (diagram, kode, dan JSON) ada di dalam folder ini/ link 
 https://github.com/luthfan1234/qiscus.git 
 
 1. Diagram Arsitektur Sistem
-![Diagram Sistem Chat](Flow Test.drawio.png)
-
+   https://drive.google.com/file/d/162aSO2cw-N06YtX12qpOV2kFGfZ6lyE6/view?usp=sharing
 2. Entity-Relationship Diagram (ERD)
-![ERD Database](ERD test .drawio.png)
+   https://drive.google.com/file/d/162aSO2cw-N06YtX12qpOV2kFGfZ6lyE6/view?usp=sharing
+   
+3. Chat Interface (Responsive) Sudah di-deploy di:
+   https://qiscus-mu.vercel.app/
 
-3. https://qiscus-mu.vercel.app/
+4. Extended JSON Payload
+   File: /public/extended_chat_data.json
 
-4. /public/extended_chat_data.json
-
-5. https://qiscus-mu.vercel.app/
+5. Chat Page with Extended Message Types (Image, Video, PDF)
+   https://qiscus-mu.vercel.app/
